@@ -5,8 +5,8 @@ server:
 # 配置rabbitmq
 spring:
   rabbitmq:
-    host: 127.0.0.1   #mq地址
-    port: 5672        #端口
+    host: 81.70.165.182   #mq地址
+    port: 22        #端口
     username: guest   #登录账号
     password: guest   #登录密码
     virtual-host: /   #虚拟机
