@@ -5,11 +5,11 @@ server:
 # 配置rabbitmq
 spring:
   rabbitmq:
-    host: 127.0.0.1          # rabbitMQ的ip地址
+    host: 81.70.165.182          # rabbitMQ的ip地址
     #addresses: 192.168.150.101:8071, 192.168.150.101:8072, 192.168.150.101:8073  #集群地址
-    port: 5672               # 端口
-    username: guest          # 账号
-    password: guest          #密码
+    port: 22               # 端口
+    username: root          # 账号
+    password: ncl@1234          #密码
     virtual-host: /          #虚拟机
     #publisher-confirms: true # 开启消息发送确认机制,低版本(一般在生产端，消费端加上也没关系)
     publisher-confirm-type: correlated # 开启消息发送确认机制(一般在生产端，消费端加上也没关系)

@@ -25,6 +25,7 @@ public class ProducerAckConfirmCallback implements RabbitTemplate.ConfirmCallbac
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
+
     @PostConstruct
     private void init() {
         //设置生产者确认回调对象
